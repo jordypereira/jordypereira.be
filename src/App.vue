@@ -17,17 +17,20 @@ export default {
 </script>
 
 <style lang="scss">
+@import "assets/css/variables";
+
 body {
   margin: 0;
 }
 .container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   font-family: open sans;
 }
 .container a {
-  color: #222;
+  color: $text-color;
   text-decoration: none;
+  padding: 10px 10px;
   transition: 500ms;
 }
 @media (min-width: 480px) {
@@ -42,7 +45,7 @@ body {
   }
 }
 .container a:hover {
-  color: #ff5722;
+  color: $primary-color;
 }
 .container .center {
   height: 100vh;

@@ -14,10 +14,12 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/css/variables";
+
 .line-hor,
 #bottom,
 #top {
-  background: #ff5722;
+  background: $primary-color;
   z-index: -20;
   width: 50vw;
   height: 30px;
@@ -26,7 +28,7 @@ export default {
 .line-vert,
 #right,
 #left {
-  background: #ff5722;
+  background: $primary-color;
   z-index: -20;
   width: 30px;
   height: 50vh;

@@ -4,15 +4,15 @@
       <span>Pereira</span>
     </h1>
     <ul class="animated fadeInDown">
-      <li>
+      <!-- <li>
         <a href="https://www.facebook.com/JordyPe">Facebook</a>
-      </li>
+      </li> -->
       <li>
         <a href="https://www.linkedin.com/in/jordy-pereira-4b0898119/">LinkedIn</a>
       </li>
-      <li>
+      <!-- <li>
         <a href="https://twitter.com/viperwooz">Twitter</a>
-      </li>
+      </li> -->
       <li>
         <a href="https://github.com/perjor">Github</a>
       </li>
@@ -31,11 +31,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/css/variables";
+
 h1 {
   font-size: 2.4em;
   font-family: montserrat;
   font-weight: 700;
-  color: #222;
+  color: $text-color;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
