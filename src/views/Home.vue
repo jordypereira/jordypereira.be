@@ -10,9 +10,9 @@
       <li>
         <a href="https://www.linkedin.com/in/jordy-pereira-4b0898119/">LinkedIn</a>
       </li>
-      <!-- <li>
-        <a href="https://twitter.com/viperwooz">Twitter</a>
-      </li> -->
+      <li>
+        <a href="https://twitter.com/_perjor">Twitter</a>
+      </li>
       <li>
         <a href="https://github.com/perjor">Github</a>
       </li>
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/css/variables";
+@import '../assets/css/variables';
 
 h1 {
   font-size: 2.4em;
