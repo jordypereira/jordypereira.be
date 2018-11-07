@@ -1,4 +1,3 @@
-RewriteRule ^home$ /
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
