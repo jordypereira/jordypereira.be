@@ -2,18 +2,18 @@
   <div class="container">
     <div class="center">
       <router-view/>
-      <Brackets />
+      <Brackets/>
     </div>
   </div>
 </template>
 <script>
-import Brackets from '@/components/OrangeBrackets'
+import Brackets from "@/components/OrangeBrackets";
 
 export default {
   components: {
     Brackets
   }
-}
+};
 </script>
 
 <style lang="scss">
@@ -25,7 +25,7 @@ body {
 .container {
   min-height: 100vh;
   width: 100vw;
-  font-family: open sans;
+  font-family: "open sans";
 }
 .container a {
   color: $text-color;

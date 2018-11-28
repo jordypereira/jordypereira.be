@@ -55,7 +55,7 @@ h1 {
 }
 h1 span {
   font-weight: 300;
-  font-family: open sans;
+  font-family: 'open sans';
 }
 ul {
   font-size: 1em;
