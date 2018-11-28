@@ -1,12 +1,13 @@
 <template>
   <div>
-    <h1 class="animated fadeInDown">Jordy
+    <h1 class="animated fadeInDown">
+      Jordy
       <span>Pereira</span>
     </h1>
     <ul class="animated fadeInDown">
       <!-- <li>
         <a href="https://www.facebook.com/JordyPe">Facebook</a>
-      </li> -->
+      </li>-->
       <li>
         <a href="https://www.linkedin.com/in/jordy-pereira-4b0898119/">LinkedIn</a>
       </li>
@@ -26,16 +27,16 @@
 
 <script>
 export default {
-  name: 'home'
-}
+  name: "home"
+};
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/css/variables';
+@import "../assets/css/variables";
 
 h1 {
   font-size: 2.4em;
-  font-family: montserrat;
+  font-family: montserrat, sans-serif;
   font-weight: 700;
   color: $text-color;
   margin: 0;
@@ -55,7 +56,7 @@ h1 {
 }
 h1 span {
   font-weight: 300;
-  font-family: 'open sans';
+  font-family: "Open Sans", sans-serif;
 }
 ul {
   font-size: 1em;

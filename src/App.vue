@@ -25,7 +25,7 @@ body {
 .container {
   min-height: 100vh;
   width: 100vw;
-  font-family: "open sans";
+  font-family: "Open Sans", sans-serif;
 }
 .container a {
   color: $text-color;
