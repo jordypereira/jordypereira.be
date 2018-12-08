@@ -27,13 +27,13 @@
 
 <script>
 export default {
-  name: "home",
+  name: 'home',
   methods: {
     track () {
       this.$ga.page('/')
     }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>

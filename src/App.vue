@@ -7,13 +7,13 @@
   </div>
 </template>
 <script>
-import Brackets from "@/components/OrangeBrackets";
+import Brackets from '@/components/OrangeBrackets'
 
 export default {
   components: {
     Brackets
   }
-};
+}
 </script>
 
 <style lang="scss">
