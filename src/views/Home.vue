@@ -5,22 +5,12 @@
       <span>Pereira</span>
     </h1>
     <ul class="animated fadeInDown">
-      <!-- <li>
-        <a href="https://www.facebook.com/JordyPe">Facebook</a>
-      </li>-->
-      <li>
-        <a href="https://www.linkedin.com/in/jordy-pereira-4b0898119/">LinkedIn</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/_perjor">Twitter</a>
-      </li>
-      <li>
-        <a href="https://github.com/perjor">Github</a>
+      <li v-for="(item, i) in socialLinks" :key="i">
+        <a :href="item.link">{{ item.name }}</a>
       </li>
     </ul>
     <div class="info-bottom">
       <a href="https://portfolio.jordypereira.be">My Portfolio</a>
-      <!-- <a href="./assets/Cv-Jordy-Pereira.pdf">Download my Curriculum Vitae</a> -->
     </div>
   </div>
 </template>
@@ -28,10 +18,32 @@
 <script>
 export default {
   name: 'home',
+  data() {
+    return {
+      socialLinks: [
+        {
+          link: "https://www.linkedin.com/in/jordy-pereira-4b0898119/",
+          name: "LinkedIn",
+        },
+        {
+          link: "https://twitter.com/_perjor",
+          name: "Twitter",
+        },
+        {
+          link: "https://www.instagram.com/jordy_pereira/",
+          name: "Instagram",
+        },
+        {
+          link: "https://github.com/perjor",
+          name: "Github",
+        },
+      ],
+    }
+  },
   methods: {
     track () {
       this.$ga.page('/')
-    }
+    },
   }
 }
 </script>
