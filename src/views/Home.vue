@@ -10,7 +10,8 @@
       </li>
     </ul>
     <div class="info-bottom">
-      <a href="https://portfolio.jordypereira.be">My Portfolio</a>
+      <a href="https://portfolio.jordypereira.be" rel="noopen" target="_blank">My Portfolio</a>
+      <a href="https://blog.jordypereira.be" rel="noopen" target="_blank">My Blog</a>
     </div>
   </div>
 </template>
@@ -21,10 +22,6 @@ export default {
   data() {
     return {
       socialLinks: [
-        {
-          link: "https://www.linkedin.com/in/jordy-pereira-4b0898119/",
-          name: "LinkedIn",
-        },
         {
           link: "https://twitter.com/_perjor",
           name: "Twitter",
