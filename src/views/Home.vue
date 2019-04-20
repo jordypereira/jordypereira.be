@@ -19,20 +19,20 @@
 <script>
 export default {
   name: 'home',
-  data() {
+  data () {
     return {
       socialLinks: [
         {
-          link: "https://twitter.com/_perjor",
-          name: "Twitter",
+          link: 'https://twitter.com/_perjor',
+          name: 'Twitter',
         },
         {
-          link: "https://www.instagram.com/jordy_pereira/",
-          name: "Instagram",
+          link: 'https://www.instagram.com/jordy_pereira/',
+          name: 'Instagram',
         },
         {
-          link: "https://github.com/perjor",
-          name: "Github",
+          link: 'https://github.com/perjor',
+          name: 'Github',
         },
       ],
     }
@@ -41,7 +41,7 @@ export default {
     track () {
       this.$ga.page('/')
     },
-  }
+  },
 }
 </script>
 
